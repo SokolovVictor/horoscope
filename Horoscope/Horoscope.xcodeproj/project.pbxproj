@@ -1,452 +1,1018 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		52C01BD91A8CE1280051975B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C01BD81A8CE1280051975B /* main.m */; };
-		52C01BDC1A8CE1280051975B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C01BDB1A8CE1280051975B /* AppDelegate.m */; };
-		52C01BDF1A8CE1280051975B /* Horoscope.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52C01BDD1A8CE1280051975B /* Horoscope.xcdatamodeld */; };
-		52C01BE21A8CE1280051975B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C01BE11A8CE1280051975B /* ViewController.m */; };
-		52C01BE51A8CE1280051975B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C01BE31A8CE1280051975B /* Main.storyboard */; };
-		52C01BE71A8CE1280051975B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C01BE61A8CE1280051975B /* Images.xcassets */; };
-		52C01BEA1A8CE1280051975B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C01BE81A8CE1280051975B /* LaunchScreen.xib */; };
-		52C01BF61A8CE1280051975B /* HoroscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C01BF51A8CE1280051975B /* HoroscopeTests.m */; };
-		52C01C001A8CF6120051975B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 52C01BFF1A8CF6120051975B /* Podfile */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		52C01BF01A8CE1280051975B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52C01BCB1A8CE1280051975B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52C01BD21A8CE1280051975B;
-			remoteInfo = Horoscope;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		52C01BD31A8CE1280051975B /* Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C01BD71A8CE1280051975B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52C01BD81A8CE1280051975B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52C01BDA1A8CE1280051975B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		52C01BDB1A8CE1280051975B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52C01BDE1A8CE1280051975B /* Horoscope.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Horoscope.xcdatamodel; sourceTree = "<group>"; };
-		52C01BE01A8CE1280051975B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52C01BE11A8CE1280051975B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		52C01BE41A8CE1280051975B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52C01BE61A8CE1280051975B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		52C01BE91A8CE1280051975B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		52C01BEF1A8CE1280051975B /* HoroscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoroscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C01BF41A8CE1280051975B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52C01BF51A8CE1280051975B /* HoroscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoroscopeTests.m; sourceTree = "<group>"; };
-		52C01BFF1A8CF6120051975B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		52C01BD01A8CE1280051975B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52C01BEC1A8CE1280051975B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		52C01BCA1A8CE1280051975B = {
-			isa = PBXGroup;
-			children = (
-				52C01BFF1A8CF6120051975B /* Podfile */,
-				52C01BD51A8CE1280051975B /* Horoscope */,
-				52C01BF21A8CE1280051975B /* HoroscopeTests */,
-				52C01BD41A8CE1280051975B /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		52C01BD41A8CE1280051975B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				52C01BD31A8CE1280051975B /* Horoscope.app */,
-				52C01BEF1A8CE1280051975B /* HoroscopeTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		52C01BD51A8CE1280051975B /* Horoscope */ = {
-			isa = PBXGroup;
-			children = (
-				52C01BDA1A8CE1280051975B /* AppDelegate.h */,
-				52C01BDB1A8CE1280051975B /* AppDelegate.m */,
-				52C01BE01A8CE1280051975B /* ViewController.h */,
-				52C01BE11A8CE1280051975B /* ViewController.m */,
-				52C01BE31A8CE1280051975B /* Main.storyboard */,
-				52C01BE61A8CE1280051975B /* Images.xcassets */,
-				52C01BE81A8CE1280051975B /* LaunchScreen.xib */,
-				52C01BDD1A8CE1280051975B /* Horoscope.xcdatamodeld */,
-				52C01BD61A8CE1280051975B /* Supporting Files */,
-			);
-			path = Horoscope;
-			sourceTree = "<group>";
-		};
-		52C01BD61A8CE1280051975B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				52C01BD71A8CE1280051975B /* Info.plist */,
-				52C01BD81A8CE1280051975B /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		52C01BF21A8CE1280051975B /* HoroscopeTests */ = {
-			isa = PBXGroup;
-			children = (
-				52C01BF51A8CE1280051975B /* HoroscopeTests.m */,
-				52C01BF31A8CE1280051975B /* Supporting Files */,
-			);
-			path = HoroscopeTests;
-			sourceTree = "<group>";
-		};
-		52C01BF31A8CE1280051975B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				52C01BF41A8CE1280051975B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		52C01BD21A8CE1280051975B /* Horoscope */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52C01BF91A8CE1280051975B /* Build configuration list for PBXNativeTarget "Horoscope" */;
-			buildPhases = (
-				52C01BCF1A8CE1280051975B /* Sources */,
-				52C01BD01A8CE1280051975B /* Frameworks */,
-				52C01BD11A8CE1280051975B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Horoscope;
-			productName = Horoscope;
-			productReference = 52C01BD31A8CE1280051975B /* Horoscope.app */;
-			productType = "com.apple.product-type.application";
-		};
-		52C01BEE1A8CE1280051975B /* HoroscopeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52C01BFC1A8CE1280051975B /* Build configuration list for PBXNativeTarget "HoroscopeTests" */;
-			buildPhases = (
-				52C01BEB1A8CE1280051975B /* Sources */,
-				52C01BEC1A8CE1280051975B /* Frameworks */,
-				52C01BED1A8CE1280051975B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52C01BF11A8CE1280051975B /* PBXTargetDependency */,
-			);
-			name = HoroscopeTests;
-			productName = HoroscopeTests;
-			productReference = 52C01BEF1A8CE1280051975B /* HoroscopeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		52C01BCB1A8CE1280051975B /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Sokolov Victor";
-				TargetAttributes = {
-					52C01BD21A8CE1280051975B = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					52C01BEE1A8CE1280051975B = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 52C01BD21A8CE1280051975B;
-					};
-				};
-			};
-			buildConfigurationList = 52C01BCE1A8CE1280051975B /* Build configuration list for PBXProject "Horoscope" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 52C01BCA1A8CE1280051975B;
-			productRefGroup = 52C01BD41A8CE1280051975B /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				52C01BD21A8CE1280051975B /* Horoscope */,
-				52C01BEE1A8CE1280051975B /* HoroscopeTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		52C01BD11A8CE1280051975B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52C01BE51A8CE1280051975B /* Main.storyboard in Resources */,
-				52C01BEA1A8CE1280051975B /* LaunchScreen.xib in Resources */,
-				52C01C001A8CF6120051975B /* Podfile in Resources */,
-				52C01BE71A8CE1280051975B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52C01BED1A8CE1280051975B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		52C01BCF1A8CE1280051975B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52C01BDF1A8CE1280051975B /* Horoscope.xcdatamodeld in Sources */,
-				52C01BDC1A8CE1280051975B /* AppDelegate.m in Sources */,
-				52C01BE21A8CE1280051975B /* ViewController.m in Sources */,
-				52C01BD91A8CE1280051975B /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52C01BEB1A8CE1280051975B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52C01BF61A8CE1280051975B /* HoroscopeTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		52C01BF11A8CE1280051975B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52C01BD21A8CE1280051975B /* Horoscope */;
-			targetProxy = 52C01BF01A8CE1280051975B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		52C01BE31A8CE1280051975B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52C01BE41A8CE1280051975B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		52C01BE81A8CE1280051975B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52C01BE91A8CE1280051975B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		52C01BF71A8CE1280051975B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		52C01BF81A8CE1280051975B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		52C01BFA1A8CE1280051975B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Horoscope/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		52C01BFB1A8CE1280051975B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Horoscope/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		52C01BFD1A8CE1280051975B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HoroscopeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horoscope.app/Horoscope";
-			};
-			name = Debug;
-		};
-		52C01BFE1A8CE1280051975B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HoroscopeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horoscope.app/Horoscope";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		52C01BCE1A8CE1280051975B /* Build configuration list for PBXProject "Horoscope" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52C01BF71A8CE1280051975B /* Debug */,
-				52C01BF81A8CE1280051975B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52C01BF91A8CE1280051975B /* Build configuration list for PBXNativeTarget "Horoscope" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52C01BFA1A8CE1280051975B /* Debug */,
-				52C01BFB1A8CE1280051975B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		52C01BFC1A8CE1280051975B /* Build configuration list for PBXNativeTarget "HoroscopeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52C01BFD1A8CE1280051975B /* Debug */,
-				52C01BFE1A8CE1280051975B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		52C01BDD1A8CE1280051975B /* Horoscope.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				52C01BDE1A8CE1280051975B /* Horoscope.xcdatamodel */,
-			);
-			currentVersion = 52C01BDE1A8CE1280051975B /* Horoscope.xcdatamodel */;
-			path = Horoscope.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
-	};
-	rootObject = 52C01BCB1A8CE1280051975B /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>05DBF9D8C22F79230BF644B5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>0B4650BE78546030F4A2067D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F508413BEF172278C7C815BD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>214B7BE20125AC1E69ABD9F9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Horoscope/Pods-Horoscope-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>52C01BCA1A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BFF1A8CF6120051975B</string>
+				<string>52C01BD51A8CE1280051975B</string>
+				<string>52C01BF21A8CE1280051975B</string>
+				<string>52C01BD41A8CE1280051975B</string>
+				<string>B2A050301872D1606FD164D4</string>
+				<string>0B4650BE78546030F4A2067D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BCB1A8CE1280051975B</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0610</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Sokolov Victor</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>52C01BD21A8CE1280051975B</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.1.1</string>
+					</dict>
+					<key>52C01BEE1A8CE1280051975B</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.1.1</string>
+						<key>TestTargetID</key>
+						<string>52C01BD21A8CE1280051975B</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>52C01BCE1A8CE1280051975B</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>52C01BCA1A8CE1280051975B</string>
+			<key>productRefGroup</key>
+			<string>52C01BD41A8CE1280051975B</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>52C01BD21A8CE1280051975B</string>
+				<string>52C01BEE1A8CE1280051975B</string>
+			</array>
+		</dict>
+		<key>52C01BCE1A8CE1280051975B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>52C01BF71A8CE1280051975B</string>
+				<string>52C01BF81A8CE1280051975B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>52C01BCF1A8CE1280051975B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>52C01BDF1A8CE1280051975B</string>
+				<string>52C01BDC1A8CE1280051975B</string>
+				<string>52C01BE21A8CE1280051975B</string>
+				<string>52C01BD91A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>52C01BD01A8CE1280051975B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>934077C90CFEF9CAEE534AF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>52C01BD11A8CE1280051975B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>52C01BE51A8CE1280051975B</string>
+				<string>52C01BEA1A8CE1280051975B</string>
+				<string>52C01C001A8CF6120051975B</string>
+				<string>52C01BE71A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>52C01BD21A8CE1280051975B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>52C01BF91A8CE1280051975B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>05DBF9D8C22F79230BF644B5</string>
+				<string>52C01BCF1A8CE1280051975B</string>
+				<string>52C01BD01A8CE1280051975B</string>
+				<string>52C01BD11A8CE1280051975B</string>
+				<string>214B7BE20125AC1E69ABD9F9</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Horoscope</string>
+			<key>productName</key>
+			<string>Horoscope</string>
+			<key>productReference</key>
+			<string>52C01BD31A8CE1280051975B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>52C01BD31A8CE1280051975B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Horoscope.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>52C01BD41A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BD31A8CE1280051975B</string>
+				<string>52C01BEF1A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BD51A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BDA1A8CE1280051975B</string>
+				<string>52C01BDB1A8CE1280051975B</string>
+				<string>52C01BE01A8CE1280051975B</string>
+				<string>52C01BE11A8CE1280051975B</string>
+				<string>52C01BE31A8CE1280051975B</string>
+				<string>52C01BE61A8CE1280051975B</string>
+				<string>52C01BE81A8CE1280051975B</string>
+				<string>52C01BDD1A8CE1280051975B</string>
+				<string>52C01BD61A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Horoscope</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BD61A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BD71A8CE1280051975B</string>
+				<string>52C01BD81A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BD71A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BD81A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BD91A8CE1280051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BD81A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52C01BDA1A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BDB1A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BDC1A8CE1280051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BDB1A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52C01BDD1A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BDE1A8CE1280051975B</string>
+			</array>
+			<key>currentVersion</key>
+			<string>52C01BDE1A8CE1280051975B</string>
+			<key>isa</key>
+			<string>XCVersionGroup</string>
+			<key>path</key>
+			<string>Horoscope.xcdatamodeld</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+			<key>versionGroupType</key>
+			<string>wrapper.xcdatamodel</string>
+		</dict>
+		<key>52C01BDE1A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.xcdatamodel</string>
+			<key>path</key>
+			<string>Horoscope.xcdatamodel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BDF1A8CE1280051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BDD1A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52C01BE01A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BE11A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BE21A8CE1280051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BE11A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52C01BE31A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BE41A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BE41A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BE51A8CE1280051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BE31A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52C01BE61A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BE71A8CE1280051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BE61A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52C01BE81A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BE91A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BE91A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BEA1A8CE1280051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BE81A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52C01BEB1A8CE1280051975B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>52C01BF61A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>52C01BEC1A8CE1280051975B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>52C01BED1A8CE1280051975B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>52C01BEE1A8CE1280051975B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>52C01BFC1A8CE1280051975B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>52C01BEB1A8CE1280051975B</string>
+				<string>52C01BEC1A8CE1280051975B</string>
+				<string>52C01BED1A8CE1280051975B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>52C01BF11A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>HoroscopeTests</string>
+			<key>productName</key>
+			<string>HoroscopeTests</string>
+			<key>productReference</key>
+			<string>52C01BEF1A8CE1280051975B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>52C01BEF1A8CE1280051975B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>HoroscopeTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>52C01BF01A8CE1280051975B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>52C01BCB1A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>52C01BD21A8CE1280051975B</string>
+			<key>remoteInfo</key>
+			<string>Horoscope</string>
+		</dict>
+		<key>52C01BF11A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>52C01BD21A8CE1280051975B</string>
+			<key>targetProxy</key>
+			<string>52C01BF01A8CE1280051975B</string>
+		</dict>
+		<key>52C01BF21A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BF51A8CE1280051975B</string>
+				<string>52C01BF31A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>HoroscopeTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BF31A8CE1280051975B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52C01BF41A8CE1280051975B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BF41A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BF51A8CE1280051975B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>HoroscopeTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01BF61A8CE1280051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BF51A8CE1280051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52C01BF71A8CE1280051975B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>52C01BF81A8CE1280051975B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>52C01BF91A8CE1280051975B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>52C01BFA1A8CE1280051975B</string>
+				<string>52C01BFB1A8CE1280051975B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>52C01BFA1A8CE1280051975B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5D9ED78968568C471A3FAFB5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Horoscope/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>52C01BFB1A8CE1280051975B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>849555817B01F721D01E0B05</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Horoscope/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>52C01BFC1A8CE1280051975B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>52C01BFD1A8CE1280051975B</string>
+				<string>52C01BFE1A8CE1280051975B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>52C01BFD1A8CE1280051975B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>HoroscopeTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Horoscope.app/Horoscope</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>52C01BFE1A8CE1280051975B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>HoroscopeTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Horoscope.app/Horoscope</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>52C01BFF1A8CF6120051975B</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Podfile</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52C01C001A8CF6120051975B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52C01BFF1A8CF6120051975B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5D9ED78968568C471A3FAFB5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Horoscope.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Horoscope/Pods-Horoscope.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>849555817B01F721D01E0B05</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Horoscope.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Horoscope/Pods-Horoscope.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>934077C90CFEF9CAEE534AF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F508413BEF172278C7C815BD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2A050301872D1606FD164D4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5D9ED78968568C471A3FAFB5</string>
+				<string>849555817B01F721D01E0B05</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F508413BEF172278C7C815BD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Horoscope.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>52C01BCB1A8CE1280051975B</string>
+</dict>
+</plist>
